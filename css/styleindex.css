@@ -1,0 +1,163 @@
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid black ;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.search-mot{
+    width: 500px;
+}
+
+.search-mot input{
+    width: 80%;
+
+}
+
+.search-mot button{
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    height: 23px;
+}
+
+.menu-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-content h1{
+    width: 100%;
+    text-align: center;
+    color: orange;
+}
+
+.content-mot{
+    width: 33.33%;
+}
+
+.content-mot img{
+    width: 90%;
+    height: 50%;
+}
+.content-mot ol{
+    border: 1px solid black;
+    width: 83%;
+    border-top:none ;
+    margin-top: 0;
+    height: 50%;
+}
+
+.content-mot li{
+    border-bottom: 1px dotted black;
+    padding: 5px;
+}
+
+.content-hai{
+    width: 33.33%;
+    height: 1000px;
+}
+
+.content-hai img{
+    width: 90%;
+    height: 50%;
+}
+
+.content-hai ol{
+    border: 1px solid black;
+    width: 83%;
+    border-top:none ;
+    margin-top: 0;
+    height: 50%;
+
+}
+
+.content-hai li{
+    border-bottom: 1px dotted black;
+    padding: 5px;
+}
+
+.content-ba{
+    width: 33.33%;
+}
+
+.content-ba img{
+    width: 90%;
+    height: 50%;
+}
+
+.content-ba ol{
+    border: 1px solid black;
+    width: 83%;
+    border-top:none ;
+    margin-top: 0;
+    height: 50%;
+}
+
+.content-ba li{
+    border-bottom: 1px dotted black;
+    padding: 5px;
+}
+
+.title-mot{
+    background-color: rgba(72, 66, 66, 0.658);
+    text-align: center;
+    color: aliceblue;
+    width: 90%;
+    height: 3%;
+}
+
+.content-div{
+    display: flex;
+    margin-top: 50px;
+}
+
+.text-mot{
+    margin-left: 20px;
+}
+
+.text-mot h2{
+    text-align: center;
+    color: orange;
+
+}
+.text-mot{
+    font-size: 20px;
+}
+.feedback-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback-content h2{
+    text-align: center;
+    color: orange;
+    width: 100%;
+}
+
+.final{
+   width: 25%;  
+
+}
+
+.final img{
+    border-radius: 9000px;
+    width: 70%;
+    position: relative;
+    left: 50px;
+}
+
+.final p{
+    text-align: center;
+    color: rgb(45, 139, 215);
+}
+
+.footer{
+    text-align: center;
+    background-color: #e7c5da;
+    margin-top: 20px;
+    padding: 10px;
+}
